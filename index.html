@@ -112,24 +112,24 @@
                 </section>
                 
                 <section>
-                    <h2>Autodesk came out with a 3D/2D viewer...</h2>
+                    <h2>Autodesk ha creado un viewer en 3D/2D ...</h2>
                     <div class="row">
                         <div class="col-xs-6 fragment">
                             <h1><i class="fa fa-cloud-upload"></i></h1>
-                            <p>Upload your CAD file</p>
+                            <p>Suben un archivo CAD</p>
                             <p>REST API</p>
                         </div>
                         <div class="col-xs-6 fragment">
                             <h1><i class="fa fa-desktop"></i></h1>
-                            <p>View on a browser</p>
+                            <p>Vizualizamos en el navegador</p>
                             <p>JavaScript API</p>
                         </div>
                     </div>
-                    <p class="fragment">It's free!</p>
+                    <p class="fragment">Es gratis!</p>
                 </section>
                 
                 <section>
-                    <a href="http://www.hermanmiller.com/products/seating/performance-work-chairs/aeron-chairs.html"><p>Buying an Aeron chair...</p></a>
+                    <a href="http://www.hermanmiller.com/products/seating/performance-work-chairs/aeron-chairs.html"><p>Compremos una silla Aeron...</p></a>
                 </section>
                 
                 <section>
@@ -137,27 +137,29 @@
                 </section>
                 
                 <section>
-                    <p>Would you rather see this on your e-commerce website..</p>
+                    <p>Preferirian ver esto en su e-commerce website..</p>
                     <img src="img/ecommerce.png">
                 </section>
                 
                 <section>
-                    <p>or this?</p>
+                    <p>o esto?</p>
                     <iframe src="http://lmv.rocks/viewer/?url=http://lmv.rocks/data/bike/0.svf" height="500px" width="80%"></iframe>
                 </section>
                 
                 <section>
-                    <h2>Supported File Formats</h2>
+                    <h2>Formatos Soportados</h2>
                     <p>ipt, neu, stla, stl, xlsx, jt, jpg, skp, prt, dwf, xls, png, sldasm, step, dwg, zip, nwc, model, sim, stp, ste, f3d, pdf, iges, dwt, catproduct, csv, igs, sldprt, cgr, 3dm, sab, obj, pptx, cam360, jpeg, bmp, gbxml, exp, ppt, doc, wire, ige, rcp, txt, dae, x_b, 3ds, rtf, rvt, g, sim360, iam, asm, dlv3, x_t, pps, session, xas, xpr, docx, catpart, stlb, tiff, nwd, sat, fbx, smb, smt, ifc, dwfx, tif</p>
                 </section>
                 
                 <section>
-                    <a href="http://lmv.rocks/viewer/?url=http://lmv.rocks/data/racecar/Design.svf">demo</a>
+                    <a href="http://lmv.rocks/viewer/?url=http://lmv.rocks/data/racecar/Design.svf">LMV Rocks demo</a>
                 </section>
-                
+                <section>
+                    <a href="http://calm-inlet-4387.herokuapp.com/?_sm_au_=iVVp43FjZ50pfTqM">LMV Nav demo</a>
+                </section>
 
                 <section>
-                    <h2 class="fragment">Yes I'm sold, How do I get Started???</h2>
+                    <h2 class="fragment">Ok, yo quiero un website asi, Como empiezo???</h2>
                     <span><p class="fragment">developer.autodesk.com</p></span>
                     <p class="fragment">Tweet me @AfroJme</p>
                 </section>
@@ -169,9 +171,9 @@
                             <span class="fragment">
                                 <h4>Server-Side REST API</h4>
                                 <ul>
-                                    <li>Upload</li>
-                                    <li>Translation</li>
-                                    <li>Storage</li>
+                                    <li>Upload del modelo</li>
+                                    <li>Traduccion</li>
+                                    <li>Almacenamiento</li>
                                 </ul>
                             </span>
                         </div>
@@ -179,9 +181,9 @@
                             <span class="fragment">
                                 <h4>Client-Side JavaScript API</h4>
                                 <ul>
-                                    <li>Viewing - THREE.js</li>
-                                    <li>Embed in Webpage</li>
-                                    <li>Various JavaScript APIs</li>
+                                    <li>Vizualisacion - THREE.js</li>
+                                    <li>Embed en pagina web</li>
+                                    <li>Varias JavaScript APIs</li>
                                 </ul>
                             </span>
                         </div>
@@ -215,20 +217,20 @@
                 </section>
 
                 <section class="fragment">
-                    <h2>On your page</h2>
+                    <h2>En su pagina</h2>
                     <div class="fragment">
-                        <p>Reference the following JavaScript Libraries:</p>
+                        <p>Hacemos referencia a las siguiente librerias de JavaScript:</p>
                         <pre><code data-trim class="hljs html">&lt;link rel="stylesheet" href="https://viewing.api.autodesk.com/viewingservice/v1/viewers/style.css" type="text/css"&gt;
                             &lt;script src="https://viewing.api.autodesk.com/viewingservice/v1/viewers/viewer3D.min.js"&gt;&lt;/script&gt;</code></pre>
                     </div>
                     <div class="fragment">
-                        <p>Create a div with id "viewer"</p>
+                        <p>Creamos in div con id "viewer"</p>
                         <pre><code data-trim class="hljs html">&lt;div id="viewer"&gt;&lt;/div&gt;</code></pre>
                     </div>
                 </section>
 
                 <section>
-                    <p>Initialize with JavaScript</p>
+                    <p>Iniciamos el JavaScript</p>
                 <pre><code data-trim class="hljs javascript">
                 function initialize() {
                 var options = {
@@ -254,7 +256,7 @@
                         <pre><code data-trim class="javascript">function getToken() {
                             return "GX6OONHlQ9qoVaCSmBqJvqPFUT5i";
                             }</code></pre>
-                    <p class="fragment">You should write your own token service.</p>
+                    <p class="fragment">Es aconsejable escribir su propio servicio de Token</p>
                 </section>
 
 
@@ -291,8 +293,8 @@
                             <li>sample apps</li>
                             <li>libraries</li>
                         </ul>
-                        <li class="fragment">These slides are on <br><a href="http://jaimerosales.github.io/NYC-Meetup">http://jaimerosales.github.io/NYC-Meetup</a></li>
-                        <li class="fragment">Ask, Don't be shy</li>
+                        <li class="fragment">Esta presentacion esta en <br><a href="http://jaimerosales.github.io/NYC-Meetup">http://jaimerosales.github.io/innovation-guatemala-adsk</a></li>
+                        <li class="fragment">Pregunten, No sean Timidos</li>
                     </ul>
                 </section>
                 
